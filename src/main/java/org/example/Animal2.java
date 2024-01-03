@@ -12,7 +12,7 @@ public class Animal2 {
     }
 }
 
-    public class FlyingAnimal extends Animal {
+    public class FlyingAnimal extends Animal2 {
         public FlyingAnimal(String name) {
             super(name);
         }
@@ -23,7 +23,7 @@ public class Animal2 {
         }
     }
 
-    public class SwimmingRunningAnimal extends Animal {
+    public class SwimmingRunningAnimal extends Animal2 {
         public SwimmingRunningAnimal(String name) {
             super(name);
         }
